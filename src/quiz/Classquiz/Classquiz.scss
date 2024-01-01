@@ -1,0 +1,48 @@
+
+.btn-row{
+    padding: 5% 0;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    .qa-btn{
+        background-color: #c2fbd7;
+        border-radius: 100px;
+        box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+        color: green;
+        cursor: pointer;
+        font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+        padding: 7px 20px;
+        text-align: center;
+        transition: all 250ms;
+        border: 0;
+        font-size: 16px;
+    }
+    .qa-btn:hover{
+        box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+        // transform: rotate(-360deg);
+        background-color: #a1f2bf;
+      }
+    
+}
+.qus-ans{
+    padding: 5%;
+    width: 50%;
+    margin: auto;
+    border: 10px solid #999;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 0 20px #ccc;
+    font-size: 20px;
+    p{
+        color: rgb(125, 188, 125);
+        display: inline-block;
+        padding: 10px ;
+        font-weight: bold;
+        text-shadow:10px 20px 4px #ccc;
+    }
+    h3{
+        color: #71717199;
+        font-style:italic;
+    }
+}
